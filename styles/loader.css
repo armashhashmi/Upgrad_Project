@@ -1,0 +1,8 @@
+.loader {
+  border: solid #f3f3f3 12px;
+  border-top: solid #444444 12px;
+  width: 70px;
+  height: 70px;
+  margin: 25% auto;
+  border-radius: 50%;
+}

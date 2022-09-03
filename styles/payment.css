@@ -2,3 +2,35 @@
   height: 500px;
   width: 500px;
 }
+
+.content-top {
+  width: 50%;
+  margin: 2% auto;
+  background-color: rgb(132, 136, 139);
+}
+
+.content-top img,
+.content-top h2,
+.content-top p {
+  padding-top: 10px;
+}
+
+.content-mid {
+  margin-left: 2%;
+}
+
+.content-mid p {
+  padding: 5px 0px;
+}
+
+.content-bottom {
+  width: 90%;
+  border: solid black;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.content-bottom p {
+  padding: 10px 0;
+}

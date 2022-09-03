@@ -2,3 +2,24 @@
   height: 500px;
   width: 500px;
 }
+
+.content-div {
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.content-div ul {
+  margin-left: 3%;
+}
+
+.content-div h2,
+.content-div h5,
+.content-div ul,
+.content-div .p {
+  padding: 10px;
+}
+
+form p {
+  padding: 0;
+}
