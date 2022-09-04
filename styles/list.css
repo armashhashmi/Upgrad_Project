@@ -1,10 +1,22 @@
+.content-top {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
 .content-div .content-mid img {
   width: 250px;
 }
 
 .content-mid {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-left: 7%;
+  /* justify-content: flex-start; */
 }
 
 .content-mid div {
@@ -19,4 +31,8 @@
 .content-div h3,
 .content-div p {
   padding: 0px 0px 15px 0px;
+}
+
+.content-bottom {
+  display: none;
 }
