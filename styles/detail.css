@@ -23,3 +23,34 @@
 form p {
   padding: 0;
 }
+
+.content-top {
+  display: flex;
+  gap: 30px;
+  width: 98%;
+  border: 2px solid black;
+}
+
+.content-top-img {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+}
+.content-top-form {
+  flex-grow: 1;
+  border-left: 2px solid black;
+  padding: 20px;
+}
+.content-top-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.book-now {
+  width: 40%;
+  align-self: center;
+}
+
+.content-top-form form p {
+  align-self: flex-start;
+}

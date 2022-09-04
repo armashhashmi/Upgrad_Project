@@ -4,10 +4,42 @@
 }
 
 .content-mid img {
-  height: 200px;
-  width: 200px;
-  padding: 25px 40px;
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 40px;
   border-radius: 25%;
+  box-shadow: 26px 31px 70px -7px rgba(115, 115, 115, 1);
+}
+
+.content-mid img:hover {
+  opacity: 0.5;
+}
+
+.middle {
+  /* transition: 0.5s ease; */
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle:hover {
+  opacity: 1;
+}
+
+.city-list {
+  position: relative;
+}
+.city-list:hover .middle {
+  opacity: 1;
+}
+.text {
+  color: black;
+  font-size: 16px;
+  padding: 8px 16px;
 }
 
 form {
@@ -31,4 +63,6 @@ form img {
 
 .content-bottom {
   text-align: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
