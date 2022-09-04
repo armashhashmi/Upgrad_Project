@@ -30,6 +30,10 @@
   /* flex-direction: column; */
 }
 
+.content-mid div:hover {
+  background-color: rosybrown;
+}
+
 .content-div h3 {
   font-size: 18px;
   font-weight: bold;
