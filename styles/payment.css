@@ -66,3 +66,7 @@ h2,
 .content-bottom p {
   padding: 10px 0;
 }
+
+button a {
+  color: white;
+}
